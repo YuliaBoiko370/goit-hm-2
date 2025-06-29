@@ -22,7 +22,7 @@ ul, li {
     text-transform: uppercase;
     color: #4d5ae5; 
 }
-.logo-span {
+a.logo-span {
     color: #2e2f42;
 }
  
@@ -34,12 +34,22 @@ ul, li {
     color: #2e2f42;
      
 }
-.header-navigation-list-hover {
+.header-navigation-list:hover {
     color: #404bbf;
 }
-.header-contacts-list-hover {
+
+.header-navigation-list:focus {
+    color: #404bbf;
+}  
+.header-contacts-list:hover {
     color: #404bbf;
 }
+
+.header-contacts-list:focus {
+    color: #404bbf;
+}
+
+.he
 .header-contacts {
     font-weight: 400;
     font-size: 16px;
@@ -73,6 +83,7 @@ ul, li {
     border-radius: 8px;
     color: #ffffff;
     }
+
 .button-order  {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
