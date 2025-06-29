@@ -34,35 +34,24 @@ a.logo-span {
     color: #2e2f42;
      
 }
-.header-navigation-list:hover {
-    color: #404bbf;
-}
-
+.header-navigation-list:hover 
 .header-navigation-list:focus {
     color: #404bbf;
-}  
-.header-contacts-list:hover {
-    color: #404bbf;
 }
 
+
+.header-contacts-list:hover 
 .header-contacts-list:focus {
     color: #404bbf;
 }
 
-.he
 .header-contacts {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5; 
     letter-spacing: 0.02em;
     font-style: normal;
     color: #434455;
-}
-.header-contacts-hover {
-    color: #404bbf;
-}
-.header-contacts-focus {
-    color: #404bbf;
 }
 
 /*Header end*/
@@ -74,13 +63,8 @@ a.logo-span {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    width: 496px;
-    height: 120px;
-    top: 260px;
-    left: 472px;
     background-color: #2e2f42;
     background: rgba(255, 255, 255, 1);
-    border-radius: 8px;
     color: #ffffff;
     }
 
@@ -91,12 +75,9 @@ a.logo-span {
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    padding: 10px 20px;
     background-color: #4D5AE5;
     color: white;
     border: none;
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
 /*Blok H1 end*/
@@ -119,17 +100,13 @@ a.logo-span {
     color: #2e2f42;
 }
 .benefits-list {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
 }
 .benefits-list-item {
     background: rgba(255, 255, 255, 1);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    padding: 20px;
-    width: 300px;
     text-align: center;
 }
 .benefits-list-item-title {
@@ -169,16 +146,12 @@ a.logo-span {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
     background-color: #FFFFFF;
 }
 
 .team-list-item {
     background: rgba(255, 255, 255, 1);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    padding: 20px;
-    width: 300px;
     text-align: center;
 }
 
@@ -228,20 +201,14 @@ a.logo-span {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    
 }
 .portfolio-list-item {
     background: rgba(255, 255, 255, 1);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    padding: 20px;
-    width: 300px;
-    text-align: center;
-}
+}   
 .portfolio-list-item-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+    width: 100%;   
 }
 .portfolio-list-item-name {
     font-weight: 500;
@@ -264,21 +231,15 @@ a.logo-span {
 /*Footer start*/
 .footer {
     background: #2e2f42;
-    padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
+    }
 .footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    width: 162px;
-    height: 24px;
-    top: 1136px;
-    left: 639px;
     background: #2e2f42;
 }
 .logo {
@@ -292,6 +253,6 @@ a.logo-span {
     color: #4d5ae5;
 }
 .logo-span {
-    color: #2e2f42;
+    color: #f4f4fd;
 }
 /*Footer end*/
