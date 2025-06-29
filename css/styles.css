@@ -41,10 +41,12 @@ ul, li {
     font-style: normal;
     color: #434455
 }
-.header-navigation-list:hover 
-.header-navigation-list:focus
-.header-contacts-list:hover 
-.header-contacts-list:focus {
+.nav-link:hover 
+.nav-link:focus {
+    color: #404bbf;
+}
+.header-contacts-item:hover 
+.header-contacts-item:focus {
     color: #404bbf;
 }
 /*Header end*/
@@ -63,6 +65,7 @@ ul, li {
 }
 
 .button-order {
+    font-family: "Roboto", sans-serif
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -171,5 +174,18 @@ ul, li {
     letter-spacing: 0.02em;
     text-align: center;
     color: #f4f4fd;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-span {
+    color: #2e2f42;
 }
 /*Footer end*/
