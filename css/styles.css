@@ -31,22 +31,21 @@ ul, li {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-     
-}
-.header-navigation-list:hover 
-.header-navigation-list:focus
-.header-contacts:hover 
-.header-contacts:focus {
-    color: #404bbf;
 }
 
 .header-contacts {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5; 
+    line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
-    color:#434455
+    color: #434455
+}
+.header-navigation-list:hover 
+.header-navigation-list:focus
+.header-contacts-list:hover 
+.header-contacts-list:focus {
+    color: #404bbf;
 }
 /*Header end*/
 
@@ -144,14 +143,6 @@ ul, li {
 
 /*Portfolio start*/
 
-.portfolio-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
 .portfolio-list-item-name {
     font-weight: 500;
     font-size: 20px;
@@ -171,29 +162,14 @@ ul, li {
 /*Footer start*/
 .footer {
     background: #2e2f42;
-    display: flex;
-    flex-direction: column;
-    }
+}
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    background: #2e2f42;
-    color: #f4f4fd;
-}
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    vertical-align: middle;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-.logo-span {
     color: #f4f4fd;
 }
 /*Footer end*/
