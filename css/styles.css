@@ -22,7 +22,7 @@ ul, li {
     text-transform: uppercase;
     color: #4d5ae5; 
 }
-a.logo-span {
+.logo-span {
     color: #2e2f42;
 }
  
@@ -39,20 +39,19 @@ a.logo-span {
     color: #404bbf;
 }
 
-
-.header-contacts-list:hover 
-.header-contacts-list:focus {
-    color: #404bbf;
-}
-
 .header-contacts {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
     font-style: normal;
-    color: #434455;
+    color:#434455
 }
+.header-contacts:hover 
+.header-contacts:focus {
+    color: #404bbf;
+}
+
 
 /*Header end*/
 
@@ -68,7 +67,7 @@ a.logo-span {
     color: #ffffff;
     }
 
-.button-order  {
+.button-order {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -80,25 +79,21 @@ a.logo-span {
     border: none;
     cursor: pointer;
   }
+  .button-order:hover,
+  .button-order:focus {
+    background-color: #404bbf;
+  }
 /*Blok H1 end*/
 
 /*Benefits start*/
-.benefits {
-    background: rgba(255, 255, 255, 1);
-    padding: 40px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .benefits-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
-    margin-bottom: 20px;
     color: #2e2f42;
-}
+}  
+
 .benefits-list {
     flex-wrap: wrap;
     justify-content: center;
@@ -193,23 +188,11 @@ a.logo-span {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 20px;
     text-transform: capitalize;
     color: #2e2f42;
 }
-.portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-.portfolio-list-item {
-    background: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}   
-.portfolio-list-item-image {
-    width: 100%;   
-}
+
+
 .portfolio-list-item-name {
     font-weight: 500;
     font-size: 20px;
@@ -241,6 +224,7 @@ a.logo-span {
     letter-spacing: 0.02em;
     text-align: center;
     background: #2e2f42;
+    color: #f4f4fd;
 }
 .logo {
     font-family: "Raleway", sans-serif;
