@@ -37,13 +37,17 @@ ul, li {
     color: #404bbf;
 }
 .header-contacts {
+    font-style: normal;
+
+}
+.header-contacts-list {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455
 }
-.header-contacts:hover 
-.header-contacts:focus {
+.header-contacts-list:hover 
+.header-contacts-list:focus {
     color: #404bbf;
 }
 /*Header end*/
@@ -63,7 +67,7 @@ ul, li {
 
 .button-order {
     font-family: "Roboto", sans-serif;
-    front-weight: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -122,7 +126,6 @@ ul, li {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
 }
@@ -135,7 +138,6 @@ ul, li {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     margin-bottom: 10px;
     color: #2e2f42;
 }
@@ -145,7 +147,6 @@ ul, li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
 }
 
