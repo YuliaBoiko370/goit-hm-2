@@ -18,7 +18,6 @@ ul, li {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    vertical-align: middle;
     text-transform: uppercase;
     color: #4d5ae5; 
 }
@@ -35,7 +34,9 @@ ul, li {
      
 }
 .header-navigation-list:hover 
-.header-navigation-list:focus {
+.header-navigation-list:focus
+.header-contacts:hover 
+.header-contacts:focus {
     color: #404bbf;
 }
 
@@ -47,28 +48,22 @@ ul, li {
     font-style: normal;
     color:#434455
 }
-.header-contacts:hover 
-.header-contacts:focus {
-    color: #404bbf;
-}
-
-
 /*Header end*/
 
 /*Blok H1 start*/
+.main-text {
+    background-color: #2e2f42;
+}
 .main-text-first {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    background-color: #2e2f42;
-    background: rgba(255, 255, 255, 1);
     color: #ffffff;
-    }
+}
 
 .button-order {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -76,7 +71,6 @@ ul, li {
     text-transform: uppercase;
     background-color: #4D5AE5;
     color: white;
-    border: none;
     cursor: pointer;
   }
   .button-order:hover,
@@ -126,29 +120,6 @@ ul, li {
 .team {
     background: #F4F4FD;
 }
-.team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    margin-bottom: 20px;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.team-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #FFFFFF;
-}
-
-.team-list-item {
-    background: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
 
 .team-list-item-name {
     font-weight: 500;
@@ -169,36 +140,23 @@ ul, li {
     color: #434455;
 }
 
-.team-list-item-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
 /*Team end*/
 
 /*Portfolio start*/
 
-.portfolio {
-    background: rgba(255, 255, 255, 1);
-}
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
     color: #2e2f42;
 }
-
 
 .portfolio-list-item-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
 }
 .portfolio-list-item-role {
@@ -206,7 +164,6 @@ ul, li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
 }
 /*Portfolio end*/
