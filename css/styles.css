@@ -21,9 +21,8 @@ ul, li {
     color: #4d5ae5; 
 }
 .header-navigation>.logo-part {
-    color: #2e2f42;
+    color:#2e2f42;
 }
- 
 .header-navigation-list {
     font-weight: 500;
     font-size: 16px;
@@ -31,8 +30,8 @@ ul, li {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.header-navigation-list:hover,
-.header-navigation-list:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 }
 .header-contacts {
@@ -44,8 +43,8 @@ ul, li {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.header-contacts-list:hover, 
-.header-contacts-list:focus {
+.header-contacts-item:hover, 
+.header-contacts-item:focus {
     color: #404bbf;
 }
 /*Header end*/
