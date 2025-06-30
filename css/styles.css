@@ -5,8 +5,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: black;
-}
+   }
 ul, li {
     list-style-type: none;
 }
@@ -21,7 +20,7 @@ ul, li {
     text-transform: uppercase;
     color: #4d5ae5; 
 }
-.logo-span {
+.logo-part {
     color: #2e2f42;
 }
  
@@ -102,11 +101,10 @@ ul, li {
 }
 .benefits-list-item-title {
     font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
-    margin-bottom: 10px;
+    color: #2e2f42;
 }
 .benefits-list-item-text {
     font-weight: 400;
@@ -201,7 +199,7 @@ ul, li {
     color: #4d5ae5;
 }
 
-.logo-span {
+.logo-part {
     color: #f4f4fd;
 }
 /*Footer end*/
