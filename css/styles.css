@@ -20,7 +20,7 @@ ul, li {
     text-transform: uppercase;
     color: #4d5ae5; 
 }
-.logo-part {
+.header-navigation>.logo-part {
     color: #2e2f42;
 }
  
