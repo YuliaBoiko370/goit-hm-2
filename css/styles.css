@@ -29,9 +29,11 @@ ul, li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2E2F42;
 }
-.header-navigation-list:hover,
+.header-navigation-list:hover {
+    color: #404bbf;
+}
 .header-navigation-list:focus {
     color: #404bbf;
 }
@@ -43,9 +45,11 @@ ul, li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455
+    color: #434455;
 }
-.header-contacts-list:hover 
+.header-contacts-list:hover {
+    color: #404bbf;
+}
 .header-contacts-list:focus {
     color: #404bbf;
 }
