@@ -32,6 +32,14 @@ ul, li {
     color: #2e2f42;
 
 }
+.nav-link {
+    color: #2e2f42;
+}
+
+.header-contacts-item {
+    color: #434455;
+}
+
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
@@ -39,7 +47,7 @@ ul, li {
 .header-contacts {
     font-style: normal;
 }
-.header-contacts-list {
+.header-contacts-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -118,7 +126,7 @@ ul, li {
 
 /*Team start*/
 .team {
-    background: #F4F4FD;
+    background-color: #F4F4FD;
 }
 .time-title {
     font-size: 36px;
